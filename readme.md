@@ -1,4 +1,4 @@
-# Generate JS Code from within Php
+# PHPToJSConverter: Generate JS Code from within Php
 
 ## Description
 This package allows to generate javascript code from php, with literal code from strings, and automatic array, string, boolean, number and null conversion.
