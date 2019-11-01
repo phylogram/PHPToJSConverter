@@ -6,7 +6,7 @@ This package allows to generate javascript code from php, with literal code from
 I used json_encode to transform php arrays and more into javascript code. I would not write as strings, since I want to use phps object inherit features.
 However you can not pass javascript code through json_encode, because it will be handled as strings.
 
-Somehow i dod not find any other implementation.
+Somehow I did not find any other implementation.
 ## How
 Pass your data to \PHPToJSConverter\JSConverter::to_javascript(), if you need javascript code, use \PHPToJSConverter\Items\LiteralJSCode()
 ## Examples
