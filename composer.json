@@ -1,0 +1,21 @@
+{
+    "name": "phylogram/php_to_js_converter",
+    "description": "This package allows to generate javascript code from php, with literal code from strings, and automatic array, string, boolean, number and null conversion.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "phylogram",
+            "email": "philip.roeggla@phylogram.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPToJSConverter\\": "src/"
+        }
+    }
+}
