@@ -112,7 +112,7 @@ class JSConverter {
 
 		$inner_array = array_map(function($key, $value) {
 			$value = static::to_javascript($value);
-			return " {$key}: {$value}";
+			return " '{$key}': {$value}";
 		}, array_keys($array), array_values($array));
 
 		$inner_js_array = implode(', ', $inner_array);
